@@ -1,0 +1,16 @@
+{
+  "name": "precis-replicator",
+  "version": "0.0.1",
+  "description": "Replicates log entries from one Mongo instance to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Precis",
+    "MongoDB",
+    "Replicator"
+  ],
+  "author": "Jeremy Darling <jeremy.darling@gmail.com>",
+  "license": "MIT"
+}
