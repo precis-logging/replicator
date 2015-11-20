@@ -15,7 +15,7 @@ var routes = function(){
         tags: ['api'],
         handler: function(req, reply){
           if(handler.source.tailing){
-            if(!gotFirstMessage){
+            if(!handler.gotFirstMessage){
               return reply('waiting');
             }
             return reply('tailing');
@@ -37,7 +37,7 @@ var routes = function(){
         tags: ['api'],
         handler: function(req, reply){
           if(handler.source.tailing){
-            if(!gotFirstMessage){
+            if(!handler.gotFirstMessage){
               return reply('waiting');
             }
             return reply('tailing');
