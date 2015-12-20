@@ -31,6 +31,16 @@ var routes = function(){
       }
     },
     {
+      path: '/api/v1/replicator/restarts',
+      method: 'GET',
+      config: {
+        tags: ['api'],
+        handler: function(req, reply){
+          return reply(handler.restarts);
+        }
+      }
+    },
+    {
       path: '/api/v1/replicator/start',
       method: 'POST',
       config:{
