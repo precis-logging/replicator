@@ -78,7 +78,7 @@ var registerUi = function(){
       components: [
         {
           name: 'ReplicatorDashboard',
-          filename: path.resolve(__dirname, 'ui/dashboard.jsx'),
+          filename: path.resolve(__dirname, './ui/dashboard.jsx'),
         },
       ],
     },
